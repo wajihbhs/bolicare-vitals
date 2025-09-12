@@ -1,0 +1,78 @@
+{
+  "app-name": "Nurea App",
+  "languages": {
+    "en": "Englais",
+    "fr": "Français"
+  },
+  "actions": {
+    "update": "Modifier",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "details": "Details"
+  },
+  "charts": {
+    "heart-rate": "Fréquence cardiaque",
+    "temperature": "Température",
+    "blood-pressure": "Pression artérielle",
+    "unit": {
+      "bpm": "bpm",
+      "celsius": "°C",
+      "mmHg": "mmHg"
+    }
+  },
+  "views": {
+    "patients": {
+      "title": "Patients",
+      "search-placeholder": "Recherche par nom ou MRN",
+      "status": {
+        "watch": "surveillance",
+        "stable": "stable",
+        "critical": "critique"
+      }
+    }
+  },
+  "form": {
+    "fields": {
+      "first-name": "Prénom",
+      "last-name": "Nom",
+      "age": "Âge",
+      "medical-record-number": "Numéro de dossier médical"
+    },
+    "titles": {
+      "edit-patient": "Modifier patient",
+      "heart-rate": "Fréquence cardiaque (bpm)",
+      "temperature": "Température (°C)",
+      "blood-pressure": "Tension artérielle (systolique/diastolique)",
+      "oxygen-saturation": "Saturation en oxygène (%)"
+    },
+    "labels": {
+      "hr-x": "FC {index}",
+      "temp-x": "Temp {index}",
+      "systolic-x": "Systolique {index}",
+      "diastolic-x": "Diastolique {index}",
+      "spo2-x": "SpO₂ {index}"
+    },
+    "buttons": {
+      "add-hr": "Ajouter FC",
+      "add-temp": "Ajouter température",
+      "add-bp": "Ajouter tension",
+      "add-spo2": "Ajouter SpO₂"
+    }
+  },
+  "alerts": {
+    "titles": {
+      "global": "Alerte critique",
+      "temperature": "Alerte température",
+      "heart-rate": "Alerte rythme cardiaque",
+      "blood-pressure": "Alerte tension artérielle",
+      "default": "Alerte"
+    },
+    "messages": {
+      "global": "{name} est en état critique",
+      "temperature": "{name} température anormale : {value}°C",
+      "heart-rate": "{name} rythme cardiaque anormal : {value} bpm",
+      "blood-pressure": "{name} tension artérielle anormale : {value}",
+      "default": "{name} statut anormal détecté"
+    }
+  }
+}

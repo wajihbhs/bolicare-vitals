@@ -1,0 +1,79 @@
+{
+  "app-name": "Nurea App",
+  "languages": {
+    "en": "English",
+    "fr": "French"
+  },
+  "actions": {
+    "update": "Edit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "details": "Details",
+    "close": "Close"
+  },
+  "views": {
+    "patients": {
+      "title": "Patients",
+      "search-placeholder": "Search by name or MRN",
+      "status": {
+        "watch": "watch",
+        "stable": "stable",
+        "critical": "critical"
+      }
+    }
+  },
+  "charts": {
+    "heart-rate": "Heart Rate",
+    "temperature": "Temperature",
+    "blood-pressure": "Blood Pressure",
+    "unit": {
+      "bpm": "bpm",
+      "celsius": "°C",
+      "mmHg": "mmHg"
+    }
+  },
+  "form": {
+    "fields": {
+      "first-name": "First Name",
+      "last-name": "Last Name",
+      "age": "Age",
+      "medical-record-number": "Medical Record Number"
+    },
+    "titles": {
+      "edit-patient": "Edit patient",
+      "heart-rate": "Heart Rate (bpm)",
+      "temperature": "Temperature (°C)",
+      "blood-pressure": "Blood Pressure (systolic/diastolic)",
+      "oxygen-saturation": "Oxygen Saturation (%)"
+    },
+    "labels": {
+      "hr-x": "HR {index}",
+      "temp-x": "Temp {index}",
+      "systolic-x": "Systolic {index}",
+      "diastolic-x": "Diastolic {index}",
+      "spo2-x": "SpO₂ {index}"
+    },
+    "buttons": {
+      "add-hr": "Add HR",
+      "add-temp": "Add Temp",
+      "add-bp": "Add Blood Pressure",
+      "add-spo2": "Add SpO₂"
+    }
+  },
+  "alerts": {
+    "titles": {
+      "global": "Critical Alert",
+      "temperature": "Temperature Alert",
+      "heart-rate": "Heart Rate Alert",
+      "blood-pressure": "Blood Pressure Alert",
+      "default": "Alert"
+    },
+    "messages": {
+      "global": "{name} is in CRITICAL condition",
+      "temperature": "{name} abnormal temperature: {value}°C",
+      "heart-rate": "{name} abnormal heart rate: {value} bpm",
+      "blood-pressure": "{name} abnormal blood pressure: {value}",
+      "default": "{name} abnormal status detected"
+    }
+  }
+}
