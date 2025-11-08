@@ -20,7 +20,10 @@ export interface Vitals {
   bloodPressure: BloodPressure[];
   oxygenSaturation: number[];
 }
-
+export interface ChartSeries {
+  name: string;
+  data: number[];
+}
 export interface Patient {
   id: number;
   firstName: string;

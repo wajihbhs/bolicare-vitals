@@ -7,7 +7,20 @@ export default defineConfig({
   root: ".",
   base: "/",
   build: {
-    outDir: "dist"
+    outDir: "dist",
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor'
+          }
+          if (id.includes('charts')) {
+            return 'charts'
+          }
+        }
+      }
+    },
+    chunkSizeWarningLimit: 1000
   },
   resolve: {
     alias: {
@@ -24,4 +37,13 @@ export default defineConfig({
       directoryAsNamespace: false,
     }),
   ],
+  server: {
+    proxy: {
+      "/api": {
+        target: "http://localhost:3333",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, "")
+      }
+    }
+  }
 })

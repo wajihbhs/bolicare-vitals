@@ -3,7 +3,7 @@
     <v-container fluid class="d-flex justify-space-between">
       <v-img
         :src="Logo"
-        alt="Bolicare Logo"
+        alt="Vita Care Logo"
         max-width="80"
         max-height="60"
         contain
@@ -49,7 +49,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
-import Logo from "../assets/bolicare_logo.jpeg";
+import Logo from "../assets/logo.png";
 
 const { t, locale } = useI18n();
 const showDropdown = ref(false);
