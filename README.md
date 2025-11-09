@@ -129,9 +129,9 @@ npm run preview
 The application is deployed on Vercel and available online:
 
 ```bash
-Web App       : https://bolicare-vitals.vercel.app/
-API Patients  : https://bolicare-vitals.vercel.app/api/patients
-API PatientID : https://bolicare-vitals.vercel.app/api/patients/[id]
+Web App       : https://vita-care-nine.vercel.app/
+API Patients  : https://vita-care-nine.vercel.app/api/patients
+API PatientID : https://vita-care-nine.vercel.app/api/patients/[id]
 ```
 
 
