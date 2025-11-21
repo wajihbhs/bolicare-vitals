@@ -123,6 +123,8 @@ npm run test:e2e:ui
 npm run build
 npm run preview
 ```
+- Generates production files in the `dist/` folder
+- For local use only
 
 ## Production links
 
@@ -133,7 +135,3 @@ Web App       : https://vita-care-nine.vercel.app/
 API Patients  : https://vita-care-nine.vercel.app/api/patients
 API PatientID : https://vita-care-nine.vercel.app/api/patients/[id]
 ```
-
-
-- Generates production files in the `dist/` folder
-- For local use only
